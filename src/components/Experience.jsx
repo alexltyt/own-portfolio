@@ -1,38 +1,40 @@
 import React from 'react';
-import html from "../assets/html.png";
+import html from "../assets/HTMLCSS.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/reactImage.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import c_sharp from "../assets/c_sharp.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-
+import java from "../assets/java.png";
+import python from "../assets/python.png";
+import reactNative from "../assets/reactNative.png";
 const Experience = () => {
     const techs = [
         {
             id: 1,
             src: html,
-            title: "HTML",
+            title: "HTML & CSS",
             style: "shadow-orange-500"
         },
         {
             id: 2,
-            src: css,
-            title: "CSS",
-            style: "shadow-blue-500"
-        },
-        {
-            id: 3,
             src: javascript,
             title: "JavaScript",
             style: "shadow-yellow-500"
         },
         {
-            id: 4,
+            id: 3,
             src: reactImage,
-            title: "React",
+            title: "React & React Native",
             style: "shadow-blue-600"
+        },
+        {
+            id: 4,
+            src: github,
+            title: "Github",
+            style: "shadow-gray-500"
         },
         {
             id: 5,
@@ -48,16 +50,22 @@ const Experience = () => {
         },
         {
             id: 7,
-            src: graphql,
-            title: "GraphQL",
-            style: "shadow-pink-400"
+            src: c_sharp,
+            title: "C#",
+            style: "shadow-blue-400"
         },
         {
             id: 8,
-            src: github,
-            title: "HTML",
-            style: "shadow-gray-500"
-        }
+            src: java,
+            title: "Java",
+            style: "shadow-red-500"
+        },
+        {
+            id: 9,
+            src: python,
+            title: "Python",
+            style: "shadow-yellow-500"
+        },
     ]
   return (
     <div name="experience" className=" bg-gradient-to-b from-gray-800 to-black w-full h-screen">
