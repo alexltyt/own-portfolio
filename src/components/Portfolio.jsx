@@ -9,16 +9,21 @@ const Portfolio = () => {
       id: 1,
       src: sunbathgamescore,
       showDemo: true,
+      demoURL: "https://alexltyt.github.io/SunbathGamescore/",
+      gitURL:"https://github.com/alexltyt/SunbathGamescore"
     },
     {
       id: 2,
       src: decidophobia,
       showDemo: true,
+      demoURL: "https://alexltyt.github.io/Decidophobia/",
+      gitURL:"https://github.com/alexltyt/Decidophobia"
     },
     {
       id: 3,
       src: portfolioWeb,
       showDemo: false,
+      gitURL:"https://github.com/alexltyt/own-portfolio"
     },
   ];
   return (
@@ -34,7 +39,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-        {portfolio.map(({ id, src,showDemo }) => (
+        {portfolio.map(({ id, src,showDemo,demoURL,gitURL }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -43,12 +48,16 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 {showDemo&& (
-                <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button 
+                  className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(demoURL, '_blank')}>
                   Demo
                 </button>
                 )}
-                <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                <button 
+                  className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(gitURL, '_blank')}>
+                  GitHub
                 </button>
               </div>
             </div>
