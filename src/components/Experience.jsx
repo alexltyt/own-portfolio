@@ -1,6 +1,6 @@
 import React from 'react';
 import html from "../assets/HTMLCSS.png";
-import css from "../assets/css.png";
+// import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/reactImage.png";
 import nextjs from "../assets/nextjs.png";
@@ -9,7 +9,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import java from "../assets/java.png";
 import python from "../assets/python.png";
-import reactNative from "../assets/reactNative.png";
+// import reactNative from "../assets/reactNative.png";
 const Experience = () => {
     const techs = [
         {
@@ -68,8 +68,8 @@ const Experience = () => {
         },
     ]
   return (
-    <div name="experience" className=" bg-gradient-to-b from-gray-800 to-black w-full h-screen">
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+    <div name="experience" className=" bg-gradient-to-b from-gray-800 to-black w-full md:h-screen">
+        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full md:h-full text-white">
             <div>
                 <p className=" text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>
                 <p className=" py-6">These are the technologies I've worked with</p>
