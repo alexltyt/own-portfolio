@@ -1,6 +1,7 @@
 import React from "react";
 
 const About = () => {
+
   return (
     <div
       name="about"
@@ -12,7 +13,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-lg md:text-xl md:leading-8">
+        <p className="text-lg md:text-base md:leading-8">
           I bring with me over a decade of front-line experience in Hong Kong’s
           banking sector and a twenty-year tenure as a Taekwondo coach, during
           which I honed a diverse set of soft skills. In 2022, I embarked on a

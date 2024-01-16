@@ -12,4 +12,73 @@
   }
 }
 
+.intro-line {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
 
+.show {
+  opacity: 1;
+  animation: disappear 3s 2s ease-in-out forwards;
+}
+
+.showStay {
+  opacity: 1;
+
+}
+@keyframes disappear {
+  to {
+    opacity: 0;
+  }
+}
+
+.grow-text {
+  font-size: 0.75rem; /* Start with text-6xl size */
+  animation: grow 5s 2s forwards; /* Transition to text-8xl after 5s */
+}
+
+@keyframes grow {
+  to {
+    font-size: 2rem;
+  }
+}
+
+.md-grow-text {
+  font-size: 2rem; /* Start with text-6xl size */
+  animation: grow 5s 2s forwards; /* Transition to text-8xl after 5s */
+}
+
+@keyframes grow {
+  to {
+    font-size: 4rem;
+  }
+}
+
+.shrink-text {
+  opacity: 1;
+  font-size: 0.75rem; /* Start with text-6xl size */
+  animation: shrink 5s 0.1s forwards;
+  max-height: 100px; /* Transition to text-8xl after 5s */
+}
+
+@keyframes shrink {
+  to {
+    font-size: 1px;
+    opacity: 0;
+    max-height: 0px;
+  }
+}
+
+/* .heightToZero {
+  max-height: 100px;
+  transition: heightToZeroAnimation 3s 2s ease-in-out forwards;
+  max-height: 0px;
+  transition: heightToZeroAnimation 10s 10s ease-in-out forwards;
+}
+
+@keyframes heightToZeroAnimation {
+  to {
+    max-height: 0px;
+  }
+} */

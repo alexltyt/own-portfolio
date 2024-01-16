@@ -9,6 +9,9 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import java from "../assets/java.png";
 import python from "../assets/python.png";
+import node from "../assets/node.png";
+import unity from "../assets/unity.png";
+
 // import reactNative from "../assets/reactNative.png";
 const Experience = () => {
     const techs = [
@@ -65,6 +68,18 @@ const Experience = () => {
             src: python,
             title: "Python",
             style: "shadow-yellow-500"
+        },
+        {
+            id: 10,
+            src: node,
+            title: "Node JS",
+            style: "shadow-green-500"
+        },
+        {
+            id: 11,
+            src: unity,
+            title: "Unity",
+            style: "shadow-gray-500"
         },
     ]
   return (

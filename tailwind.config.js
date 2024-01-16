@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ["Great Vibes"],
+      "signature": ["Great Vibes","cursive"],
+      "rennieBeanie": ["Rennie Beanie","cursive"],
+      "tiltWrap": ["Tilt Warp","sans-serif"],
     },
   },
   plugins: [],

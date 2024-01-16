@@ -30,8 +30,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 -mt-10">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Shek Yin</h1>
-        
+        <h1 className="text-2xl md:text-5xl font-rennieBeanie ml-2">Alex / Shek Yin</h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -40,7 +39,7 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-110 duration-200"
           >
-            <Link to={link} smooth duration={500} isDynamic={true}>
+            <Link to={link} smooth duration={500} isDynamic={true} offset={-84}>
               {link}
             </Link>
           </li>
@@ -61,7 +60,7 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-            <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500} isDynamic={true} offset={-80}>
+            <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500} isDynamic={false} offset={-80}>
               {link}
             </Link>
             </li>

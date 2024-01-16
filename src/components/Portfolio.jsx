@@ -85,7 +85,7 @@ const Portfolio = () => {
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
         {portfolio.map(({ id, src,title,description,showDemo,demoURL,gitURL }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <p className="text-center text-sm p-1 tracking-wider">
+              <p className="text-center text-sm font-extrabold p-1 tracking-wider">
                 {title}
                 </p>
               <img
