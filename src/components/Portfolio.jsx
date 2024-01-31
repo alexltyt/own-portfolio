@@ -29,7 +29,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: snapsettle,
-      title: "Snapsettle",
+      title: "SnapSettle",
       description: "Simplify the process of settling bills",
       showDemo: true,
       demoURL: "https://www.sunbathsoft.com/snapsettle/",
