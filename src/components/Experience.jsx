@@ -11,6 +11,7 @@ import java from "../assets/java.png";
 import python from "../assets/python.png";
 import node from "../assets/node.png";
 import unity from "../assets/unity.png";
+import firebase from "../assets/firebase.png";
 
 // import reactNative from "../assets/reactNative.png";
 const Experience = () => {
@@ -49,7 +50,7 @@ const Experience = () => {
             id: 6,
             src: nextjs,
             title: "Next JS",
-            style: "shadow-white"
+            style: "shadow-black"
         },
         {
             id: 7,
@@ -77,17 +78,24 @@ const Experience = () => {
         },
         {
             id: 11,
+            src: firebase,
+            title: "Firebase",
+            style: "shadow-yellow-500"
+        },
+        {
+            id: 12,
             src: unity,
             title: "Unity",
             style: "shadow-gray-500"
         },
+
     ]
   return (
-    <div name="experience" className=" bg-gradient-to-b from-gray-800 to-black w-full md:h-screen">
-        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full md:h-full text-white">
+    <div name="experience" className=" bg-iDarkBlue w-full md:h-screen">
+        <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full md:h-full text-iGray">
             <div>
-                <p className=" text-4xl font-bold border-b-4 border-gray-500 p-2 inline">Experience</p>
-                <p className=" py-6">These are the technologies I've worked with</p>
+                <p className=" text-4xl  font-bold border-b-4 border-iOrange py-1 font-tiltWrap inline">Experience</p>
+                <p className=" py-6 ">These are the technologies I've worked with</p>
             </div>
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
 
