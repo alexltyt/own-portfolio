@@ -1,5 +1,4 @@
 import './App.css';
-import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
@@ -10,7 +9,7 @@ import Journey from './components/Journey';
 
 function App() {
   return (
-    <div>
+    <div className='bg-iDarkBlue'>
       <NavBar />
       <Home />
       <Journey />

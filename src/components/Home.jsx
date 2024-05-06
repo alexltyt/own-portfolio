@@ -58,8 +58,7 @@ const Home = () => {
 								className={`intro-line  ${showLine2 ? "show" : ""} ${hideLine ? "shrink-text" : ""}`}
 								id="line2">
 								<span className="text-iGray text-xs md:text-2xl">
-									&nbsp; Taekwondo Coach &nbsp; | &nbsp; Student &nbsp; | &nbsp; Singer Song-writer
-									&nbsp; |
+									&nbsp; Taekwondo Coach &nbsp; | &nbsp; Singer Song-writer
 								</span>
 							</div>
 							<div
@@ -104,8 +103,8 @@ const Home = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="hidden md:flex">
-					<img src={ownImage} alt="my profile" className="rounded-2xl mx-auto w-1/3 md:w-6/12 2xl:-ml-10" />
+				<div class="hidden bg-iGreen md:flex rounded-xl pt-0 w-[25%] lg:pt-0 md:mr-44 2xl:mr-44 relative shadow-lg mt-20 rounded-tl-[30px] rounded-tr-[30px] rounded-br-[150px] rounded-bl-[50px]">
+					<img src={ownImage} alt="my profile" className="w-full  -mt-24 mb-12 rounded-xl md:-ml-10 2xl:-ml-10 shadow-lg rounded-tl-[30px] rounded-tr-[30px] rounded-br-[150px] rounded-bl-[50px]" />
 				</div>
 			</div>
 		</div>

@@ -5,9 +5,9 @@ export default function Journey() {
 	return (
 		<div
 			name="journey"
-			className="w-full md:h-screen bg-iDarkBlue  text-iGray flex flex-col justify-start pb-6 font-ubuntu">
+			className="w-full md:h-screen md:my-44 bg-iDarkBlue  text-iGray flex flex-col justify-start pb-6 font-ubuntu">
 			<div className="max-w-screen-lg p-4 my-4 mx-auto flex flex-row justify-start w-full">
-				<div className="md:text-4xl text-center border-b-4  border-iOrange inline mx-auto whitespace-break-spaces tracking-widest font-tiltWrap" >
+				<div className="md:text-2xl text-center border-b-4  border-iOrange inline mx-auto whitespace-break-spaces tracking-widest font-tiltWrap" >
 					My Career Journey: Milestones & Horizons
 				</div>
 			</div>
